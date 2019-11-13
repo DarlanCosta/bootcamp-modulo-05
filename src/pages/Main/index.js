@@ -1,13 +1,11 @@
 import React from 'react';
 
-import { Title } from './styles';
+import { Container } from './styles';
 
-function Main() {
+export default function Main() {
   return (
-    <Title error>
-      Main <small>Oloco</small>
-    </Title>
+    <Container>
+      <h1>Repositórios</h1>
+    </Container>
   );
 }
-
-export default Main;
