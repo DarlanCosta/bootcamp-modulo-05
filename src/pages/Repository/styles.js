@@ -48,7 +48,7 @@ export const IssueList = styled.ul`
   list-style: none;
 
   li {
-    diplay: flex;
+    display: flex;
     padding: 15px 10px;
     border: 1px solid #eee;
     border-radius: 4px;
